@@ -81,7 +81,7 @@
                 <h1 id="homeHeading">Coming Soon...</h1>
                 <h2 id="homeHeading">Tech Courses</h2>
                 <hr>
-                <p>Tech Eklavya can help to "Tech you Up" with new Skills on Big Data, Data Science, Nosql, Programming, Linux, SOA, Aptitude, Statistics and what not ? Register to get a 100% free access to Apache Spark and Hadoop devoloper course with life time access guarantee, any change or update in the course won't cost you anything and you will be updated with latest information " forever..."</p>
+                <p>Tech Eklavya can help to "Tech you Up" with new Skills on Latest Technologies. Register to get a 100% free access to Apache Spark and Hadoop developer course with life time access guarantee, any change or update in the course won't cost you anything and you will be updated with latest information " forever..."</p>
                 <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
             </div>
         </div>
@@ -93,7 +93,7 @@
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <h2 class="section-heading">We've got what you need!</h2>
                     <hr class="light">
-                    <p class="text-faded">Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!</p>
+                    <p class="text-faded">Big Data, Data science, Nosql, Programming, Linux, Statistics and many more to choose from. we have got courses which are designed to meet the latest requirements in job market, Learn with your own leisure and from any device, watch lectures, Practice exercises, quiz, reading materials, e-book, We have brought to you what you need. and thats not all, If you are a student and in short of money, Just drop us a mail and we will give you free access to the course of your choice. " Knowledge should be free and to all " is our Motto! </p>
                     <a href="#services" class="page-scroll btn btn-default btn-xl sr-button">Get Started!</a>
                 </div>
             </div>
@@ -175,9 +175,17 @@
 		<form:form modelAttribute="signupForm" role="form">
 		
 			<div class="form-group">
-				<form:errors />
+			
+			
+			<form:errors />
+				<form:input path="name" type="Text" class="form-control" placeholder="Enter Name" />
+				<form:errors  cssClass="error" path="name" />
+				
+				
 				<form:input path="email" type="email" class="form-control" placeholder="Enter email" />
 				<form:errors  cssClass="error" path="email" />
+		
+			
 			</div>
 		
 			<div class="col-lg-2 col-lg-offset-4">
